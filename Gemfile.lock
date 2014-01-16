@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    amq-protocol (1.9.2)
+    bunny (1.1.0)
+      amq-protocol (>= 1.9.2)
+    carrot-top (0.0.7)
+      json
+    ffi (1.9.3)
+    hutch (0.7.0)
+      bunny (~> 1.1.0)
+      carrot-top (~> 0.0.7)
+      multi_json (~> 1.5)
+    json (1.8.1)
+    multi_json (1.8.4)
+    pi_piper (1.3.2)
+      ffi
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hutch (~> 0.7)
+  pi_piper
